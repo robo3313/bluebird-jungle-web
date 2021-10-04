@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!--
+    <meta name="description" content="Fashion week logistics in London, Milan and Paris and strategic relationships with fashion and luxury brands for magazines and digital influencers"/>
+    <link rel="icon" type="image/png" href="img/logo.png"/>
+    <link rel="apple-touch-icon" type="image/png" href="img/logo.png">
+-->
+
+
+    <title>Bluebird Jungle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/bootstrap-4.6.0-dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--
+
+    &lt;!&ndash; Font Awesome &ndash;&gt;
+    <link href="dist/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+
+-->
+    <!-- Custom styles for this template -->
+    <link href="css/bluebird-jungle.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="0" href="#0">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="1" href="#1">Instruments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="2" href="#2">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+        </ul>
+    </div>
+
+    <a class="navbar-brand">
+        <img src="img/logo.png" height="60px" alt="">
+    </a>
+
+</nav>
+
+
+
+<div class="main-container">
+    <div class="container">
+
+        <div id="nav-carousel" class="carousel slide" data-interval="false" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" id="music-html"></div>
+
+                <div class="carousel-item" id="instruments-html"></div>
+
+                <div class="carousel-item" id="talents-html"></div>
+
+                <div class="carousel-item editorial" id="media-html"></div>
+
+                <div class="carousel-item editorial" id="team-html"></div>
+
+                <div class="carousel-item editorial" id="guides-html"></div>
+
+                <div class="carousel-item editorial" id="contact-html"></div>
+
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#nav-carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#nav-carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="dist/jquery-3.5.1/jquery.min.js"></script>
+<script src="dist/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $("#music-html").load("music.html");
+        $("#instruments-html").load("instruments.html");
+    });
+</script>
+</body>

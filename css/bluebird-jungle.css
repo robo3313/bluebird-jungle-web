@@ -1,0 +1,9 @@
+.main-container {
+    background-image: url("../img/bj-poster.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    padding-top: 2em;
+}
