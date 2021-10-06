@@ -1,9 +1,65 @@
-.main-container {
-    background-image: url("../img/bj-poster.jpg");
+@font-face {
+    font-family: 'AltFont';
+    src: url('../fonts/neutra-text-alt-587261020eccb.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BoldFont';
+    src: url('../fonts/neutra-text-bold-5871e1605afa2.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'LightFont';
+    src: url('../fonts/neutra-text-light-5872613aeda5b.otf') format('opentype');
+}
+
+.boldtext {
+    font-family: 'BoldFont', sans-serif;
+}
+
+.alttext {
+    font-family: 'AltFont', sans-serif;
+}
+
+.lighttext {
+    font-family: 'LightFont', sans-serif;
+}
+
+.container {
+    background-image: url("../img/bj-cover.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 100vh;
-    padding-top: 2em;
+    height: 1100px;
+}
+
+img.song-title-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.song-author {
+    font-family: 'LightFont', sans-serif;
+}
+
+.song-text {
+    font-family: 'BoldFont', sans-serif;
+}
+
+.song-lyrics {
+    font-family: 'AltFont', sans-serif;
+}
+
+.song-credits {
+    font-family: 'LightFont', sans-serif;
+}
+
+.song-lyrics p,
+.song-credits p {
+    margin-bottom: 0;
+}
+
+.slide-content {
+    background-color: red;
 }

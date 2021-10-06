@@ -36,19 +36,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-                <a class="nav-link" data-target="#nav-carousel" data-slide-to="0" href="#0">Music</a>
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="0" href="#0">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="1" href="#0">Songs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-target="#nav-carousel" data-slide-to="1" href="#1">Instruments</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-target="#nav-carousel" data-slide-to="2" href="#2">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="2" href="#1">Instruments</a>
             </li>
         </ul>
     </div>
@@ -68,20 +62,11 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
 
-                <div class="carousel-item active" id="music-html"></div>
+                <div class="carousel-item active" id="home-html"></div>
+
+                <div class="carousel-item" id="songs-html"></div>
 
                 <div class="carousel-item" id="instruments-html"></div>
-
-                <div class="carousel-item" id="talents-html"></div>
-
-                <div class="carousel-item editorial" id="media-html"></div>
-
-                <div class="carousel-item editorial" id="team-html"></div>
-
-                <div class="carousel-item editorial" id="guides-html"></div>
-
-                <div class="carousel-item editorial" id="contact-html"></div>
-
 
                 <!-- Left and right controls -->
                 <a class="left carousel-control" href="#nav-carousel" data-slide="prev">
@@ -103,7 +88,8 @@
 <script src="dist/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
 <script>
     $(function(){
-        $("#music-html").load("music.html");
+        $("#home-html").load("home.html");
+        $("#songs-html").load("songs.html");
         $("#instruments-html").load("instruments.html");
     });
 </script>
