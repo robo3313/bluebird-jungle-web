@@ -32,6 +32,8 @@
     background-size: cover;
     -o-background-size: cover;
     height: 1100px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 img.song-title-image {
@@ -60,6 +62,27 @@ img.song-title-image {
     margin-bottom: 0;
 }
 
-.slide-content {
-    background-color: red;
+
+img.portrait-image {
+    max-width: 100%;
+    height: auto;
+}
+
+img.portrait-text {
+    max-width: 100%;
+    height: auto;
+}
+
+
+img.instrument-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.instrument-name {
+    font-family: 'BoldFont', sans-serif;
+}
+
+.instrument-description {
+    font-size: 10px;
 }
