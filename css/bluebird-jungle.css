@@ -120,14 +120,17 @@ img.instrument-image {
     }
   }
 
-  .footer {
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
-  }
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
-  .footer-link {
-      margin-left: 10px;
-      margin-right: 10px;
-  }
+.footer-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
+.navbar {
+    background-color: #577397 !important;
+}

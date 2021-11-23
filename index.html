@@ -43,14 +43,17 @@
             <li class="nav-item ">
                 <a class="nav-link" data-target="#nav-carousel" data-slide-to="0" href="#0">Home</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="1" href="#1">Music</a>
+            </li>
             <li class="nav-item ">
-                <a class="nav-link" data-target="#nav-carousel" data-slide-to="1" href="#1">Songs</a>
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="2" href="#2">Songs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-target="#nav-carousel" data-slide-to="2" href="#2">Credits</a>
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="3" href="#3">Credits</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-target="#nav-carousel" data-slide-to="3" href="#3">Instruments</a>
+                <a class="nav-link" data-target="#nav-carousel" data-slide-to="4" href="#4">Instruments</a>
             </li>
         </ul>
     </div>
@@ -67,6 +70,8 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active" id="home-html"></div>
+
+                <div class="carousel-item" id="music-html"></div>
 
                 <div class="carousel-item" id="songs-html"></div>
 
@@ -104,6 +109,7 @@
 <script>
     $(function(){
         $("#home-html").load("home.html");
+        $("#music-html").load("music.html");
         $("#songs-html").load("songs.html");
         $("#credits-html").load("credits.html");
         $("#instruments-html").load("instruments.html");
