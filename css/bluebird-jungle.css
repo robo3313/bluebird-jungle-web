@@ -25,6 +25,12 @@
     font-family: 'LightFont', sans-serif;
 }
 
+.music-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
 .container {
     /*background-image: url("../img/bj-cover.jpg");*/
     -webkit-background-size: contain;
